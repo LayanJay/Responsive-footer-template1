@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.container{
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  background-color: #eee;
 }
 
-.App-link {
-  color: #61dafb;
+.footer__container{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2rem;
+  background-color: #272C34;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.logo{
+  width: 3rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.logo__name{
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  margin-bottom: 1rem;
+  color: #eeeeee;
+}
+
+.logo__description{
+  padding-right: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
+  color: #eee;
+}
+
+.hr{
+  display: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  background-color: #eee;
+  width: 768px;
+}
+
+.col{
+  padding: 1rem;
+  margin-left: 1rem;
+  color: #eee ;
+}
+
+.col__title{
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.col__links{
+  color: rgba(238, 238, 238, 0.548);
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.col__links:hover{
+  color: #eee;
+}
+
+.social{
+  color: #eee;
+}
+
+@media screen and (max-width: 960px){
+  .hr{
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    background-color: #eee;
+    width: 768px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .center{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .col{
+    text-align: center;
+    color: #eee ;
+    justify-content: center;
   }
 }
