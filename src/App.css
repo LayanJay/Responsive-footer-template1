@@ -37,6 +37,7 @@
 
 .logo__description{
   padding-right: 1rem;
+  font-size: 1rem;
   line-height: 1.5;
   letter-spacing: 0.05rem;
   color: #eee;
@@ -53,7 +54,6 @@
 
 .col{
   padding: 1rem;
-  margin-left: 1rem;
   color: #eee ;
 }
 
@@ -80,9 +80,31 @@
 
 .social__hr{
   margin-top: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 50%;
-    background-color: #eee;
+  margin-bottom: 1rem;
+  background-color: #eee;
+}
+
+.social__tags{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.social__tags__color{
+  color: rgba(238, 238, 238, 0.637); 
+}
+
+.social__tags__color:hover{
+  color: #eee;
+}
+
+.social__copyrights{
+  color: #eee;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.7rem;
 }
 
 @media screen and (max-width: 960px){
@@ -100,6 +122,18 @@
     align-items: center;
     text-align: center;
   }
+
+  .col{
+    padding: 1rem;
+    color: #eee ;
+  }
+
+  .social__tags{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 768px){
@@ -112,7 +146,7 @@
   .footer__container{
     position: absolute;
     bottom: 0;
-    margin-bottom: -30rem;
+    margin-bottom: -40rem;
     padding: 2rem;
     background-color: #272C34;
   }

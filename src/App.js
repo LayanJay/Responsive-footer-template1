@@ -1,4 +1,8 @@
-import { Grid } from "@material-ui/core";
+import { Grid, IconButton } from "@material-ui/core";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import React from "react";
 import "./App.css";
 import logo from "./Assets/logo.svg";
@@ -138,7 +142,23 @@ function App() {
           </Grid>
           <Grid md={12} sm={12} className="social">
             <hr className="social__hr" />
-            <div>social tags//</div>
+            <div className="social__tags">
+              <IconButton>
+                <FacebookIcon className="social__tags__color" />
+              </IconButton>
+              <IconButton>
+                <LinkedInIcon className="social__tags__color" />
+              </IconButton>
+              <IconButton>
+                <TwitterIcon className="social__tags__color" />
+              </IconButton>
+              <IconButton>
+                <GitHubIcon className="social__tags__color" />
+              </IconButton>
+            </div>
+            <div className="social__copyrights">
+              © 2020 Layan Jayasinghe. All Rights Reserved.
+            </div>
           </Grid>
         </Grid>
       </div>

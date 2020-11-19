@@ -1,6 +1,22 @@
-# Will release soon..
+# Mobile first, Responsive footer template
 
-## Available scripts
+## Key features
+
+- Mobile first responsive design.
+- Meterial UI components
+- Social icons
+
+<img src='ss2.PNG' alt='mobile-view' style="width: 200px"/>
+<img src='ss1.PNG' alt='desctop-view' style="width: 800px"/>
+
+### How to use
+
+- Clone the repository
+- Run `npm install` in the project directory to install the required dependencies.
+- Copy the code from `App.js` and paste into your React code. _(make necessary changes)_
+- Copy the `App.css` styles into your styles files.
+
+### Available scripts
 
 In the project directory, you can run:
 
