@@ -6,7 +6,7 @@
 - Meterial UI components
 - Social icons
 
-<img src='ss2.PNG' alt='mobile-view' style="width: 200px"/>
+<img src='ss2.PNG' alt='mobile-view' style="width: 150px"/>
 <img src='ss1.PNG' alt='desctop-view' style="width: 800px"/>
 
 ### How to use
